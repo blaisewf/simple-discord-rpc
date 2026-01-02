@@ -1,6 +1,6 @@
 {
 	"name": "simple-discord-rpc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A minimal Discord RPC client",
 	"author": "blaisewf",
 	"repository": {

@@ -1,0 +1,12 @@
+{
+    "name": "simple-discord-rpc-test",
+    "version": "1.0.0",
+    "description": "Test for simple-discord-rpc package",
+    "main": "test.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "dependencies": {
+        "simple-discord-rpc": "*"
+    }
+}
