@@ -1,18 +1,21 @@
 {
-	"name": "@nyabsi/minimal-discord-rpc",
+	"name": "simple-discord-rpc",
 	"version": "1.0.0",
 	"description": "A minimal Discord RPC client",
-	"author": "ItsPi3141 (Original Author) & Nyabsi",
-	"license": "GPL-3.0",
+	"author": "blaisewf",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nyabsi/minimal-discord-rpc.git"
+		"url": "git+https://github.com/blaisewf/simple-discord-rpc.git"
 	},
 	"bugs": {
-		"url": "https://github.com/nyabsi/minimal-discord-rpc/issues"
+		"url": "https://github.com/blaisewf/simple-discord-rpc/issues"
 	},
-	"homepage": "https://github.com/nyabsi/minimal-discord-rpc",
-	"keywords": ["discord", "rpc", "discord-rpc"],
+	"homepage": "https://github.com/blaisewf/simple-discord-rpc",
+	"keywords": [
+		"discord",
+		"rpc",
+		"discord-rpc"
+	],
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
@@ -23,5 +26,15 @@
 		"rimraf": "^6.0.1",
 		"typescript": "^5.8.2"
 	},
-	"packageManager": "yarn@4.7.0"
+	"dependencies": {
+		"glob": "^13.0.0",
+		"lru-cache": "^11.2.4",
+		"minimatch": "^10.1.1",
+		"minipass": "^7.1.2",
+		"package-json-from-dist": "^1.0.1",
+		"path-scurry": "^2.0.1",
+		"undici-types": "^6.21.0"
+	},
+	"license": "MIT",
+	"type": "commonjs"
 }

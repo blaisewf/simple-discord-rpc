@@ -1,13 +1,9 @@
-# Minimal Discord RPC
-
-A fork of the original `minimal-discord-rpc` package as it was taken down.
-
-No support will be provided.
+# simple-discord-rpc
 
 ## Usage
 
 ```js
-import { Client, ActivityType } from "minimal-discord-rpc";
+import { Client, ActivityType } from "simple-discord-rpc";
 
 const client = new Client({
  clientId: "1234567890123456789",
