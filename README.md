@@ -1,4 +1,5 @@
 # simple-discord-rpc
+Based on the minimal-discord-rpc package, which has been discontinued.
 
 ## Usage
 
